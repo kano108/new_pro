@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url("https://image.shutterstock.com/image-photo/light-bulbs-on-dark-wooden-260nw-354086042.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App-logo {
@@ -46,5 +49,7 @@
 }
 .page_number{
   margin: 3% auto;
-  width: 900px;
+  /* width: 900px; */
+  background-color:thistle;
+  /* background-size:cover; */
 }

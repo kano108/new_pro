@@ -28,26 +28,24 @@ function Register() {
 
   return (
     <div>
-      <h1>Pagination Page</h1>
-      <h2>Kishan Patel </h2>
+      <h1 style={{color:"white"}}>Pagination Page</h1>
+      <h2 style={{color:"white"}}>Kishan Patel </h2>
       <br />
-      <div className="page_number">
-        
-
-      <Pagination
-        count={count}
-        size="large"
-        page={page}
-        variant="outlined"
-        shape="rounded"
-        onChange={handleChange}
-        />
-        </div>
       <div className="all_image">
         {Data.currentData().map((elem) => {
           return <img src={elem.url} alt="" className="singal_image" />;
-          // <img src={elem.url} alt="" className="singal_image" />;
         })}
+      </div>
+      <div className="page_number">
+        <Pagination
+          count={count}
+          size="large"
+          color="secondary"
+           page={page}
+          variant="outlined"
+          shape="rounded"
+          onChange={handleChange}
+        />
       </div>
     </div>
   );
