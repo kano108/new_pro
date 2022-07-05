@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.singal_image
+{
+  width: 200px;
+}
+.all_image{
+  width: 900px;
+  margin: 2% auto;
+}
+.page_number{
+  margin: 3% auto;
+  width: 900px;
+}
